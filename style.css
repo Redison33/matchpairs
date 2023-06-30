@@ -1,0 +1,48 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: crimson;
+    color: transparent;
+    font-size: 60px;
+}
+
+.card.open {
+    background-color: grey;
+    color: white;
+}
+
+.card.success {
+    background-color: green;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.input {
+    width: 75.5%;
+}
+
+.text {
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 40px;
+}
